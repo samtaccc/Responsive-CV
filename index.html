@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--========== BOX ICONS ==========-->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+        />
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <!--======== SWIPER JS =========-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">SAM</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home-alt nav__icon"></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="bx bx-book nav__icon"></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-receipt nav__icon"></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="bx bx-list-plus nav__icon"></i
+                                >Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">
+                                <i class="bx bx-folder-open nav__icon"></i
+                                >Projects
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class="bx bx-link-external nav__icon"></i
+                                >References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data">
+                                <img
+                                    src="/assets/img/112.jpg"
+                                    alt=""
+                                    class="home__img"
+                                />
+
+                                <h1 class="home__title">
+                                    MANLUTAC, <b>IZZA SAMANTHA</b>
+                                </h1>
+                                <h3 class="home__profession">Web Developer</h3>
+
+                                <div>
+                                    <a
+                                        download
+                                        href="/assets/pdf/Manlutac-Izza.pdf"
+                                        class="home__button-movil"
+                                        >Download</a
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i>
+                                    Malolos, Bulacan 3000
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i>
+                                    samanthamanlutac@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i>
+                                    (+63)995-218-8013
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i>
+                                    (+63)975-001-4811
+                                </span>
+                                <span class="home__information">
+                                    <a
+                                        href="https://github.com/samtaccc"
+                                        target="_blank"
+                                        class="home__information"
+                                    >
+                                        <i class="bx bxl-github home__icon"></i>
+                                        @samtaccc
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Change theme button -->
+                        <i
+                            class="bx bx-moon change-theme"
+                            title="Theme"
+                            id="theme-button"
+                        ></i>
+
+                        <!-- Button to generate and download pdf. Available for desktop -->
+                        <i
+                            class="bx bx-download generate-pdf"
+                            title="Generate PDF"
+                            id="resume-button"
+                        ></i>
+                    </section>
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">
+                            BS in Information Technology fresh graduate
+                            passionate about problem-solving and learning new
+                            technologies. Highly-capable leader, having led our
+                            final capstone project to completion.
+                            <!-- Proficient in a range of following languages including JavaScript,
+                            HTML/CSS. -->
+                        </p>
+                    </section>
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <!--------PRIMARY----------->
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">PRIMARY</h3>
+                                    <span class="education__studies"
+                                        >Lord's Shepherds Acaademy</span
+                                    >
+                                    <span class="education__year"
+                                        >2003-2009</span
+                                    >
+                                </div>
+                            </div>
+                            <!-------SECONDARY----------->
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">SECONDARY</h3>
+                                    <span class="education__studies"
+                                        >Lord's Shepherds Academy</span
+                                    >
+                                    <span class="education__year"
+                                        >2009-2013</span
+                                    >
+                                </div>
+                            </div>
+                            <!---------TERTIARY-------------->
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">TERTIARY</h3>
+                                    <span class="education__studies"
+                                        >Our Lady of Fatima
+                                        University-Valenzuela</span
+                                    >
+                                    <span class="education__year"
+                                        >2013-2015</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">BSIT</h3>
+                                    <span class="education__studies"
+                                        >Centro de Escolar University
+                                        Malolos</span
+                                    >
+                                    <span class="education__year"
+                                        >2016-2017</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">BSIT</h3>
+                                    <span class="education__studies"
+                                        >AMA College</span
+                                    >
+                                    <span class="education__year"
+                                        >2017-2019</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">BSIT</h3>
+                                    <span class="education__studies"
+                                        >La Consolacion University of the
+                                        Philippines</span
+                                    >
+                                    <span class="education__year"
+                                        >2019-2021</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__right">
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>
+                                    JavaScript
+                                </li>
+                            </ul>
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> PHP
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>
+                                    Communication Skills
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        Web Design Intern
+                                    </h3>
+                                    <span class="experience__company"
+                                        >Phantasmode Teknologi</span
+                                    >
+                                    <p class="experience__description">
+                                        Helped design and build the company's
+                                        website.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        Programmer
+                                    </h3>
+                                    <span class="experience__company"
+                                        >CAPSTONE: LCUP Scheduling System</span
+                                    >
+                                    <p class="experience__description"></p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        Web Design Intern
+                                    </h3>
+                                    <span class="experience__company"
+                                        >Phantasmode Teknologi</span
+                                    >
+                                    <p class="experience__description">
+                                        Helped design and build the company's
+                                        website.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- ========== PROJECTS ========== -->
+                    <section class="project section" id="project">
+                        <h2 class="section-title">Projects</h2>
+
+                        <div class="project__container swiper mySwiper">
+                            <div class="project__content swiper-wrapper">
+                                <section
+                                    class="project__data bd-grid swiper-slide"
+                                >
+                                    <a
+                                        href="https://samtaccc.github.io/Travel-Landing-Page/"
+                                        ><img
+                                            src="assets/img/project1.png"
+                                            alt=""
+                                            class="project__img"
+                                        />
+                                        <div class="project__middle">
+                                            <div class="project__title">
+                                                Responsive Travel Landing Page
+                                            </div>
+                                        </div>
+                                    </a>
+                                </section>
+                                <section
+                                    class="project__data bd-grid swiper-slide"
+                                >
+                                    <a href="https://comfyhaus.netlify.app/"
+                                        ><img
+                                            src="assets/img/project2.png"
+                                            alt=""
+                                            class="project__img"
+                                        />
+                                        <div class="project__middle">
+                                            <div class="project__title">
+                                                Shopping Cart
+                                            </div>
+                                        </div>
+                                    </a>
+                                </section>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle"
+                                    >Professor/BALTI-Web Administrator</span
+                                >
+                                <h3 class="references__title">
+                                    Prof. Emmanuel Sulit
+                                </h3>
+                                <ul class="references__contact">
+                                    <li>
+                                        <i class="bx bxs-phone "></i>
+                                        09955668312
+                                    </li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <!-- <section class="languages section"></section> -->
+
+                    <!--========== INTERESTS ==========-->
+                    <!-- <section class="interests section"></section> -->
+                </div>
+            </div>
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <!--========== SWIPER JS ===========-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
