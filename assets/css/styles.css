@@ -122,8 +122,8 @@ body.scale-cv {
 }
 
 .scale-cv .home__img {
-    width: 90px;
-    height: 90px;
+    width: 100%;
+    height: auto;
 }
 
 .scale-cv .home__container {
@@ -344,7 +344,7 @@ img {
 .home__img {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     justify-content: center;
     margin-bottom: var(--mb-1);
 }
